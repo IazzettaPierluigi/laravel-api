@@ -19,7 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::get('/test', function () {
     return response()->json([
-        'name' => 'gianni',
+        'name' => 'gianno',
         'city' => 'rome'
     ]);
 });
